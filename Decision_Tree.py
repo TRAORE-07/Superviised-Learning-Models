@@ -1,3 +1,4 @@
+# Import libraries
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 from sklearn import tree
@@ -5,7 +6,7 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 # Load the Disease dataset
-data = pd.read_csv("D:\\Datasets\\disease.csv")
+data = pd.read_csv("disease.csv")
 
 # Separate features and target variable
 x = data.iloc[:, 0:15]

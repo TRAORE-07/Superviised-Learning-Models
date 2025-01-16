@@ -1,3 +1,4 @@
+# Import libraries
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -17,7 +18,7 @@ plt.ylabel("sigmoid(x)")
 plt.show()
 
 # Load the dataset
-data = pd.read_csv('D:\\Datasets\\Social_Network_Ads.csv')
+data = pd.read_csv('Social_Network_Ads.csv')
 
 # Preprocess the data (this is an example, adjust as necessary)
 # Assuming the last column is the target and others are features

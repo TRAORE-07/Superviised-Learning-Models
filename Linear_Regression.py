@@ -1,9 +1,12 @@
+# Import libraries
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("D:\\Datasets\\Salary_dataset.csv")
+# Load dataset
+data = pd.read_csv("Salary_dataset.csv")
 
+# Set Input and Output
 x = data['YearsExperience']
 y = data['Salary']
 

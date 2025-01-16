@@ -1,10 +1,11 @@
+# Import libraries
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-data = pd.read_csv('D:\\Datasets\\CarPrice.csv')
+data = pd.read_csv('CarPrice.csv')
 
 # Extract the relevant columns
 x1 = data['carlength'].values.reshape(-1, 1)
